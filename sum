@@ -1,0 +1,9 @@
+#!/bin/bash
+# if '#!' as first two characters of file, use the directory following to run rest of script
+sum=0 #must assign variables with no space
+#this is my comment
+for arg in $@ #grab all positional arguments from command line
+do
+	sum=$((arg + sum)) #math operator: (())
+done
+echo $sum
