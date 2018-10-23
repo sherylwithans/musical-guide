@@ -1,6 +1,6 @@
 #!/bin/bash
 # if '#!' as first two characters of file, use the directory following to run rest of script
-#some changes here
+#some changes here and here again
 sum=0 #must assign variables with no space
 #this is my comment
 for arg in $@ #grab all positional arguments from command line
